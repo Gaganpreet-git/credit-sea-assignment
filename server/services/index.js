@@ -1,0 +1,1 @@
+exports.creditProfileService = require("./creditProfile.service");

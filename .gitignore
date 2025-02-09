@@ -1,0 +1,66 @@
+# Node modules (ignore for both client and server)
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+stacktrace.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build files
+dist/
+build/
+.out/
+.next/
+.vite/
+coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency locks (optional, but useful for package managers)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# TypeScript (if using)
+*.tsbuildinfo
+
+# Firebase and Cloud Functions (if using)
+.firebase/
+.firebaserc
+
+# Jest & Testing files
+coverage/
+jest/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Temporary files
+temp/
+tmp/
+
+# Debugging
+*.log
+.npm/
+node_repl_history
