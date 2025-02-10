@@ -3,7 +3,8 @@ import "./Home.css";
 import CreditProfile from "../../CreditProfile/CreditProfile";
 
 const PAN_REGEX = /^[A-Z]{5}[0-9]{4}[A-Z]{1}$/;
-const API_URL = `http://localhost:3001/credit-profile`;
+const API_URL = `${process.env.REACT_APP_BACKEND_URL}/credit-profile`;
+console.log(API_URL);
 
 const Home = () => {
   const [pan, setPan] = useState("");
